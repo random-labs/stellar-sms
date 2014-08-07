@@ -1,0 +1,25 @@
+{
+  "name": "Stellar SMS Notifications",
+  "description": "Get SMS Notifications when you receive Stellar.",
+  "logo": "https://static1.twilio.com/packages/company/img/logos_icon_round.png",
+  "repository": "https://github.com/rickyrobinett/stellar-sms",
+  "website": "https://www.twilio.com/blog/2014/08/stellar-cryptocurrency-sms-notifications.html",
+  "keywords": ["twilio", "node", "stellar"],
+  "env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio account id"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio authentication token"
+    },
+    "PHONE_NUMBER": {
+      "description": "Phone number where you want to receive SMS notifications"
+    },
+    "TWILIO_PHONE_NUMBER": {
+      "description": "Your Twilio phone number"
+    },
+    "STELLAR_WALLET_ADDRESS": {
+      "description": "Your Stellar wallet address" 
+    }
+  }
+}

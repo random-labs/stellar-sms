@@ -1,0 +1,9 @@
+{
+  "name": "stellar-sm",
+  "description": "Get SMS notifications when your friends send you stellar.",
+  "author": "Ricky Robinett <ricky@twilio.com>",
+  "dependencies": {
+    "twilio": "1.6.0",
+    "ws": "0.4.31"
+  }
+}
